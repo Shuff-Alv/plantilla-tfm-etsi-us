@@ -51,7 +51,7 @@
 
       set par(leading: 0.4em)
       place(top + left, dx: 42mm, dy: 25mm, box(width: 155mm, text(size: 21pt, [
-        Trabajo Fin de Grado\
+        Trabajo Fin de Master\
         #metadata.degree
       ])))
       place(bottom + left, dx: 4.2cm, dy: -16.6cm, text(size: 21pt, box(width: 16cm, [#metadata.title])))
@@ -81,7 +81,7 @@
   set align(center)
   set par(spacing: 0pt, leading: 0.5em)
   text(size: 16pt, [
-    Trabajo Fin de Grado\
+    Trabajo Fin de Master\
     #metadata.degree
   ])
   v(2cm)
@@ -139,7 +139,7 @@
   set text(font: "TeX Gyre Heros", size: 10pt, stretch: 85%)
   set block(spacing: 0pt)
 
-  grid.with(columns: (90pt, auto), gutter: 10pt)(text([Trabajo Fin de Grado: ]), text(metadata.title))
+  grid.with(columns: (90pt, auto), gutter: 10pt)(text([Trabajo Fin de Master: ]), text(metadata.title))
 
   v(1cm)
   text([Autor: ])
@@ -424,7 +424,7 @@
 #let tfm_etsi_us_template(
   // El título del TFM
   title,
-  // El grado de la titulación, p.ej. Ingeniería Industrial
+  // El master de la titulación, p.ej. Ingeniería Industrial
   degree,
   // Nombre y apellidos del autor
   author,
