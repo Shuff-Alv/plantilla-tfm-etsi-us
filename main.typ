@@ -1,9 +1,9 @@
-#import "template/lib.typ": tfg_etsi_us_template, pre-content, main-content, post-content, index,first-letter
+#import "template/lib.typ": tfm_etsi_us_template, pre-content, main-content, post-content, index,first-letter
 
 #set text(font: ("Times New Roman", "Tinos"))
 
-#show: tfg_etsi_us_template.with(
-  // El título del TFG
+#show: tfm_etsi_us_template.with(
+  // El título del TFM
   "Formato de Publicación de la Escuela Técnica Superior de Ingeniería",
   // El grado de la titulación, e.g. Ingeniería Industrial
   "Ingeniería de las Tecnologías de Telecomunicación",
@@ -15,7 +15,7 @@
   "Profesor Titular",
   // Nombre del departamento asociado
   "Dpto. Teoría de la Señal y Comunicaciones",
-  // Año del TFG (Por defecto el año de compilación del archivo)
+  // Año del TFM (Por defecto el año de compilación del archivo)
   // year: 2024
   // Activar el modo de desarrollo o no, por ahora sólo muestra la fecha del documento en la esquina superior derecha de la cubierta.
   dev-mode: true
@@ -51,7 +51,7 @@
 ]
 #main-content[
   // Las páginas de aquí junto a los títulos definidos usan numeración arábiga
-  // comenzando desde 1. Usado para el contenido principal del TFG
+  // comenzando desde 1. Usado para el contenido principal del TFM
   = Capítulo
   // Ejemplo de uso de la función first-letter
   #first-letter([#lorem(50)])

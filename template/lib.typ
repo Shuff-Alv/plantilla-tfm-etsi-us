@@ -421,8 +421,8 @@
   body
 }
 
-#let tfg_etsi_us_template(
-  // El título del TFG
+#let tfm_etsi_us_template(
+  // El título del TFM
   title,
   // El grado de la titulación, p.ej. Ingeniería Industrial
   degree,
@@ -434,7 +434,7 @@
   tutor_title,
   // Nombre del departamento asociado
   department,
-  // Año del TFG (Por defecto el año de compilación del archivo)
+  // Año del TFM (Por defecto el año de compilación del archivo)
   year: datetime.today().year(),
   // Activar el modo de desarrollo o no, por ahora sólo muestra la fecha del documento en la esquina superior derecha de la cubierta.
   dev-mode: true,
